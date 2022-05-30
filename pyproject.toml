@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "PyLator"
 version = "0.1.0"
-description = "PyLator is a free translating service created by CodingEssence, also known as LeShuriken1, using Python and HTML, hosted on Replit, and translated by the translate module which uses MyMemory API"
-authors = ["LeShuriken1@GMail.com"]
+description = "PyLator is a free translating service created by CyberPy, also known as LeShuriken1, using Python and HTML, hosted on Replit, and translated by the translate module which uses MyMemory API"
+authors = ["PyLator.Info@GMail.com", "LeShuriken1@GMail.com",]
 
 [tool.poetry.dependencies]
 python = "^3.8"
