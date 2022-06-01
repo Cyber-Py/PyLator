@@ -70,6 +70,10 @@ def about_page():
 def invalid_route_404(error):
   return render_template('error.html')
 
+# @app.errorhandler(405)
+# def invalid_route_405(error):
+#   exec(main.py)
+
 @app.route('/translation-error')
 def translation_error():
   return render_template('translation_error.html')
