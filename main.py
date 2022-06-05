@@ -33,6 +33,7 @@ def translate_input():
   translation = Translator(to_lang= tl, from_lang = fl).translate(text)
   err = translation.find('EXAMPLE: LANGPAIR=EN|IT USING 2 LETTER ISO OR RFC3066 LIKE ZH-CN. ALMOST ALL LANGUAGES SUPPORTED BUT SOME MAY HAVE NO CONTENT') + 1
   if err:
+    print(err)
     tefile = open('/home/runner/PyLator/templates/translation_error1.html', 'w')
     tefile.write(f'''<!DOCTYPE html>
 <head>
