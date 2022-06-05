@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PyLator"
-version = "0.1.0"
+version = "0.1.5"
 description = "PyLator is a free translating service created by CyberPy, also known as LeShuriken1, using Python and HTML, hosted on Replit, and translated by the translate module which uses MyMemory API"
 authors = ["PyLator.Info@GMail.com", "LeShuriken1@GMail.com", "CyberPy01@GMail.com"]
 
