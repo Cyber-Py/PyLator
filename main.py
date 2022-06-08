@@ -30,7 +30,7 @@ def translate_input():
   if tl == '':
     tl = 'fr'
     
-  translation = Translator(to_lang= tl, from_lang = fl).translate(text)
+  translation = Translator(to_lang = tl, from_lang = fl).translate(text)
   err = translation.find('EXAMPLE: LANGPAIR=EN|IT USING 2 LETTER ISO OR RFC3066 LIKE ZH-CN. ALMOST ALL LANGUAGES SUPPORTED BUT SOME MAY HAVE NO CONTENT') + 1
   if err:
     print(err)
@@ -57,7 +57,7 @@ def translate_input():
   <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETT//9E0///RNP//0TT//9E0///RNP//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETT//9E0///RNP//0TT//9E0/////////////9E0///AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABE0///RNP//0TT//9E0///RNP/////////////RNP//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARNP//0TT//9E0///RNP//0TT//9E0///RNP//0TT//8AAAAAAAAAAAAAAAAAAAAAAAAAAJ9wOv+fcDr/n3A6/0TT/5hE0///RNP//0TT//9E0///RNP//0TT//9E0///RNP//0TT//9E0///AAAAAJ9wOv+fcDr/n3A6/59wOv+fcDqVRNP//0TT//9E0///RNP//0TT//9E0///RNP//0TT//9E0///RNP//0TT//+fcDr/n3A6/59wOv+fcDr/RNP/mETT//9E0///RNP//0TT//9E0///RNP//0TT//9E0///RNP//0TT//9E0///n3A6/59wOv+fcDr/n3A6/59wOpVE0/+YRNP/mETT/5hE0/+YRNP/mETT/5hE0///RNP//0TT//9E0///RNP//59wOv+fcDr/n3A6/59wOv+fcDr/n3A6lZ9wOpWfcDqVn3A6lZ9wOpWfcDqVn3A6lUTT//9E0///RNP//0TT//+fcDr/n3A6/59wOv+fcDr/n3A6/59wOv+fcDr/n3A6/59wOv+fcDr/n3A6/0TT/5hE0///RNP//0TT//9E0///n3A6/59wOv+fcDr/n3A6/59wOv+fcDr/n3A6/59wOv+fcDr/n3A6/59wOv+fcDqVRNP//0TT//9E0///RNP//wAAAACfcDr/n3A6/59wOv+fcDr/n3A6/59wOv+fcDr/n3A6/59wOv+fcDr/RNP/mETT//9E0///RNP//wAAAAAAAAAAAAAAAAAAAAAAAAAAn3A6/59wOv+fcDr/n3A6/59wOv+fcDr/n3A6/59wOv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ9wOv///////////59wOv+fcDr/n3A6/59wOv+fcDr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACfcDr///////////+fcDr/n3A6/59wOv+fcDr/n3A6/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ9wOv+fcDr/n3A6/59wOv+fcDr/n3A6/wAAAAAAAAAAAAAAAAAAAAAAAAAA+B8AAPAPAADwDwAA8A8AAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA8A8AAPAPAADwDwAA+B8AAA==" rel="icon" type="image/x-icon">
 </head> 
 
-<p style = 'color:#00008c' align = 'center'><strong>{translation}</strong><br></br><a href="https://PyLator.CodingEssence.Repl.Co">Click here to translate again</a></p>''')
+<p style = 'color:#00008c' align = 'center'><strong>{translation}</strong><br></br><a href="https://PyLator.CyberPy.Repl.Co">Click here to translate again</a></p>''')
   output_file.close()
   
   return render_template('output.html')
