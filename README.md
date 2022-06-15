@@ -1,6 +1,6 @@
 # PyLator!
 
-[![image](favicon.ico)](https://pylator.codingessence.repl.co/)
+[![image](favicon.ico)](https://PyLator.CyberPy.Repl.Co/)
 
 PyLator is a free translating service created by CyberPy, also known as LeShuriken1, using Python and HTML, hosted on Replit, and translated by the translate module which uses MyMemory API
 
